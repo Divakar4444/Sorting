@@ -12,7 +12,7 @@ public class Bubblesorting {
 	            { 
 	                if (arr[j] > arr[j + 1])  
 	                { 
-	                    // swap arr[j] and arr[j+1] 
+	                   
 	                    temp = arr[j]; 
 	                    arr[j] = arr[j + 1]; 
 	                    arr[j + 1] = temp; 
@@ -20,14 +20,13 @@ public class Bubblesorting {
 	                } 
 	            } 
 	  
-	            // IF no two elements were  
-	            // swapped by inner loop, then break 
+	           
 	            if (swapped == false) 
 	                break; 
 	        } 
 	    } 
 	  
-	    // Function to print an array  
+	    
 	    static void printArray(int arr[], int size) 
 	    { 
 	        int i; 
@@ -41,7 +40,7 @@ public class Bubblesorting {
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 	    int arr[] = { 64, 34, 25, 12, 22, 11, 90 }; 
         int n = arr.length; 
         bubbleSort(arr, n); 
